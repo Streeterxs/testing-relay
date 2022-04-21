@@ -1,0 +1,17 @@
+"""The root of all... queries"""
+type Query {
+  """The ID of an object"""
+  id: ID!
+
+  """Me is the logged User"""
+  me: User
+}
+
+"""Represents User"""
+type User {
+  """The ID of an object"""
+  id: ID!
+
+  name: String
+  count: Int
+}
